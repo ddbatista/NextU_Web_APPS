@@ -1,0 +1,114 @@
+										******************************** Desarrollo Web NextU *************************************
+
++++++++++++++++ Fundamentos de HTML +++++++++++++++
+Unidad 1: Browser Rendering y Estructura XML
+	El objetivo del Programa que corresponde a esta Unidad es: 
+		Emplear el lenguaje de marcas de Hipertexto para el desarrollo de sitios web. 
+	El objetivo del Curso Fundamentos de HTML que corresponde a esta Unidad es: 
+		Identificar el funcionamiento del navegador como herramienta para interpretar sitios web. 
+	
+	HTML es un lenguaje de marcas o etiquetas.
+		
+
+	WEB -> Manera en que puede fluir la información
+	
+	Estructura navegadores Web
+	
+												User Interface ---------------
+													   |					  |
+			 Data persistence-----------------Browser Engine				  |
+													 | 					      |
+											  Rendering Engine ------- UI Backend
+											  |		|        	  
+									  Networking  JavaScript
+												  Interpreter
+  
+	Motores de Renderizado
+	
+		Proceso atraves del cual el navegador genera graficamente los archivos recibidos .
+		
+		existen algunos como blink (Google chrome and Opera), EdgeHtml (Desde Explorer 11), Gecko usado como base de firefox y webkit (Safari)
+		blink pertenece al proyecto chromium con contribuciones de Google, ASA, Intel y Samsung.
+		
+	¿Qué es XML? --> Lenguaje de marcado extensivo. Desarrollado por WWWo W3C
+		     XML                                 HTML
+		Almacenar datos                       Mostrar datos
+		Transportar datos                     Definir datos
+		Tipos de datos
+		
+		
+		
+-------------------------------------------------------------------o-o-oo--oo-oo----------------------
+															
+														GIT
+	commands
+	
+	git --version    para saber que version tenemos
+	git config --global user.name "Nombre"          para decir quien soy
+	git config --global user.mail "Correo"
+	git init            iniciar repositorio
+	git clone url_de_repositorio_a_copiar             para copiar un repositorio
+	git add nombre_del_archivo                 añadir archivos al area de preparacion
+	git commit -m "Mensaje del commit"       ejecutar el commit
+	git log          para ver el historial 
+	git diff commit_id commit_id     para ver las diferencias entre commit los id se cogen del historial 
+	                                 y se pueden coger los primeros 5 caracteres
+     git checkout commit_id          para volver a una version anterior
+	 git branch nombre_de_rama       Para poder tranajar en un escenario aparte sin 
+										dañar nada en produccion
+     git merge rama                  Unir la rama actural con la rama espedifisticada
+	 git branch                      permite listar las ramas existentes
+---------------------------------------------------------------o------o--------o--------------o----------
+
+	El Documento HTML tiene una estructura basica compuesta por dos partes
+	son el <head></head> y <body></body>. El head ofrece informacion para los navegadores y el body escribimos la estructura html que sera nuestra pagina
+	
+	Ejemplos
+	
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"> //permite poder utilizar carac5teres especiales
+			<meta name="viewport" content="width=device-width,user-scalable=no"> // viewport area de pagina visible para el usuario
+																				 // width=device-width decimos que sea igual al tamaño de la pantalla y 
+																				 //el user-scalable=no es para que no pueda hacer zoom
+																				 
+		</head>
+		<body>
+			<p title="mi primer parrafo">mi primer parrafo</p>
+		</body>
+	</html>
+
+	Meta
+	
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"> //permite poder utilizar carac5teres especiales
+			<meta name="author" content="Daavid Batista" >	// name define la propiedad en este caso es author donde se define el creador
+			<meta name="keywords" content="fundacion,divini,jesus" >	//keywords definimos palabras claves que puedan servir para encontrar la pagina en los buscadores
+			<meta name="description" content="pagina fundacion divino niño jesus" > //Description es una descripcion
+																				 
+		</head>
+		<body>
+			<p title="mi primer parrafo">mi primer parrafo</p>
+		</body>
+	</html>
+	
+	Etiquetas de parrafos y texto
+	
+	<h1></h1> ---> va desde 1 hasta 6 y define el titulo donde h1 tiene el titulo mas importante y h6 en menos.
+	<p></p>   ---> define parrafos
+	<br/> ---> cambio de linea
+	<em></em> --> palabra en cursiva
+	<strong></strong> ---> palabra en negrita, estas dos se pueden combinar 
+	
+	<ol>  ->listas ordenadas por numeros
+		<li>elementos</li>
+	
+	</ol>
+	
+	reemplazando el OL por ul 
+	<ul></ul> -->Listas sin ordenar
+	
+		
