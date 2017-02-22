@@ -111,4 +111,23 @@ Unidad 1: Browser Rendering y Estructura XML
 	reemplazando el OL por ul 
 	<ul></ul> -->Listas sin ordenar
 	
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Manejo básico de imagenes
+	
+		<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"> //permite poder utilizar carac5teres especiales
+			<meta name="viewport" content="width=device-width,user-scalable=no"> 																				 
+		</head>
+		<title>Manejo Basico de imagenes</title>
+		<body>
+			<img src="img/nombre_img.jpg" alt="Titulo Imagen" title="Titulo imagen (para que aparezca el nombre de la img cuando pase el mouse por arriba)" />
+		</body>
+	</html>
+
+	
+	
 		
