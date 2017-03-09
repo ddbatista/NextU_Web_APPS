@@ -116,7 +116,7 @@ Unidad 1: Browser Rendering y Estructura XML
 	
 	Manejo básico de imagenes
 	
-		<!DOCTYPE html>
+	<!DOCTYPE html>
 	<html>
 		<head>
 			<meta charset="utf-8"> //permite poder utilizar carac5teres especiales
@@ -125,6 +125,48 @@ Unidad 1: Browser Rendering y Estructura XML
 		<title>Manejo Basico de imagenes</title>
 		<body>
 			<img src="img/nombre_img.jpg" alt="Titulo Imagen" title="Titulo imagen (para que aparezca el nombre de la img cuando pase el mouse por arriba)" />
+			#Width y heigth, como atributos, se usan para cambiar el tamaño de la imagen en px# 
+		</body>
+	</html>
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Etiquetas de Estructura
+	
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"> //permite poder utilizar carac5teres especiales
+			<meta name="viewport" content="width=device-width,user-scalable=no"> 																				 
+		</head>
+		<title>Manejo de tablas</title>
+		<body>
+			<table border="1"> ---> le indicamos al navegador que el elemento a renderizar es una tabla, border hacer que el borde de la tabla aumente su grosor.
+			<thead> --> erstructura de la tabla dentro del codigo, head, body, foot
+			 
+				
+			</thead>
+				
+				
+				
+			<tbody>
+				
+			</tbody>
+			
+			
+			
+			<tfoot>
+			 
+			</tfoot>
+			
+			<tr> --> para las filas
+				<td></td> ---> para las columnas
+				<th></th> ---> para resaltar en negrita
+			
+			</tr>
+			
+			
+			</table>
 		</body>
 	</html>
 
