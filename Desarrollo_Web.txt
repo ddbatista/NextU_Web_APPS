@@ -169,6 +169,31 @@ Unidad 1: Browser Rendering y Estructura XML
 			</table>
 		</body>
 	</html>
+--------------------------------------------------------------------------------------------------------------------------------------
+
+							Etiquetas de formularios
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"> //permite poder utilizar carac5teres especiales
+			<meta name="viewport" content="width=device-width,user-scalable=no"> 																				 
+		</head>
+		<title>Manejo de tablas</title>
+		<body>
+		  <form autocomplete="on/off si no lo indicamos el navegador asumira on" name="informativo para identificar los form"> ----Contenedor del formulario
+		  
+			<fieldset> ----Resaltar formulario atravez de bordes
+				<legend>
+				Titulo del formulario
+				</legend>
+				<lable for="nombre">Nombre</lable>
+				<input type="text"></input>
+			
+			</fieldset>
+		  </form>
+		</body>
+	</html>
 
 	
 	
