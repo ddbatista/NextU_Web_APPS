@@ -195,6 +195,63 @@ Unidad 1: Browser Rendering y Estructura XML
 		</body>
 	</html>
 
+----------------------------------------------------------------------------------------------------------------------
+							Etiquetas de formulario
+		Etiquetas de control y captura de datos					
+	<input type="text">  ---Permite capturar datos como texto, numeros, emails
 	
+	<input type="color">
+	<input type="date">
+	<input type="datetime">
+	<input type="datetime-local"> 
+	<input type="file">   ---buscar archivo 
+	<input type="email">
+	<input type="month">
+	<input type="number">
+	<input type="range" min="0" max="10">  --rango de numeros
+	<input type="tel">
+	<input type="time">
+	<input type="search">
+	<input type="week">
+	<input type="reset"> --- Limpia el formulario
+	<input type="url">
+	<input type="text">
+	<input type="button">
+	<input type="submit">
+	
+	atributos de la etiqueta input
+	type   --- tipo de input
+	name   --- indica el nombre para diferenciar un campo de otro
+	id     --- identificacion unica a un elemento en el DOM
+	disable     ----deshabilitar un campo puede ser true or false
+	readonly    ---- solo lectura
+	maxlength ---- numero maximo de caracteres
+	max     ----- es de tipo numerico e indica el valor maximo que se puede entrar en el cuadro
+	min    ----- indica valor minimo que puede ser ingresado
+	value  ----  es utilizado para asignarle un valor por defecto, que puede ser usado si a la persona se le olvida llenarlo
+	step   ---- es numerico y va amentando en multiplos de lo que se le indique en el step
+	placeholder ---- se usa para dar ejemplo al usuario de lo que debe de escribir ahi
+	
+	
+	otras etiquetas 
+	
+	<select > -------lista desplegable de opciones
+	    <option></option>
+	</select>
+	
+	<textarea name="name" rows="9" cols="50"> --- sirve para escribir parrafos y comentarios largos
+	
+	</textarea>
+	
+	Etiquetas de enunciado
+	
+	<h1></h1>
+	<em></em>
+	<strong></strong>
+	<b></b>
+	<p></p>
+	<label for="para asociarlo con una etiqueta input y debe ser con el id de la eqtiqueta"></lable>
+	
+	caniuse.com podemos consultar si una etiqueta o un elemento es soportado por un navegador
 	
 		
