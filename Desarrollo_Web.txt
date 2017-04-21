@@ -59,7 +59,9 @@ Unidad 1: Browser Rendering y Estructura XML
      git merge rama                  Unir la rama actural con la rama espedifisticada
 	 git branch                      permite listar las ramas existentes
 ---------------------------------------------------------------o------o--------o--------------o----------
-
+					Unidad 2. Etiquetas y Atributos
+	
+	
 	El Documento HTML tiene una estructura basica compuesta por dos partes
 	son el <head></head> y <body></body>. El head ofrece informacion para los navegadores y el body escribimos la estructura html que sera nuestra pagina
 	
@@ -291,11 +293,21 @@ Unidad 1: Browser Rendering y Estructura XML
 	   
 	</p>
 	<a href="#inicio" >ir al inicio</a>
- 	
 	
-	
-	
-	
+-----------------------------------------------------------------------------------------------------------------------------------
+							Etiquetas Semáticas
+
+<header></header> ----- es la cabezera de sitio y se situa el logo y la nombre de la app
+<nav></nav> ------- es la seccion donde tiene los enlaces de navegacion a los distintos tipos de la app
+<section></section> ----- es la seccion que se usa para agrupar contenidos que hacen referencia a un mismo tema en general
+<article></article> ----- se utiliza para representar cualquier contenido ej: noticias, publicacion de blog
+<aside></aside> -------  submenu de navegacion lateral
+<footer></footer> ----- pie de pagina donde se pone informacion de los creadores, direccion, contacto
+
+las etiquetas semanticas unicamente se utilizan para indicar las partes del documentos(app web)
+
+------------------------------------------------------------------------------------------------------------------------------------
+							Unidad 3. Etiquetas Multimedia
 	
 	
 	
