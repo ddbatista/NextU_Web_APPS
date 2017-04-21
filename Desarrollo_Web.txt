@@ -254,4 +254,51 @@ Unidad 1: Browser Rendering y Estructura XML
 	
 	caniuse.com podemos consultar si una etiqueta o un elemento es soportado por un navegador
 	
+----------------------------------------------------------------------------------------------------------------------------------
+						Validaciones de formularios
+						
+	Atributo "require" en el input caracteristica de HTML5
+	
+------------------------------------------------------------------------------------------------------------------------------------
+						Creacion de enlaces
+	
+   	<a href="" target="_blank para que no sobre escriba la pagina y se abra una nueva ventana" ></a> ------Hypervinculos
+	<a href="" target="_blank" download="img.jpg" ><img src="img.jpg" alt="img" title="img" width="150px"></a> al hacer clic descargara la imagen
+	
+	anclas
+	
+	si tenemos varios parrafos largos y queremos  mostrar una forma rapida de ir a uno en especifico 
+	debemos de colocar un titulo y un id al contenido
+	<a href="#inicio" >inicio</a>
+	<a href="#contenido_1" >ir a contenido 1</a>
+	<a href="#contenido_2" >ir a contenido 2</a>
+	
+	<h2 id="contenido_1">Contenido 1</h2>
+	<p>
+	   fasdfkasdfsdakhflkhf'asfkhsf
+	   sdfsldfh;sdlfhdha;dslhf;adsf
+	   fsdalfhasdfljhsdlfhsdlfhasdfkl
+	   sgdhfghgfhdfghghdhthbwerbehqetve
+	   
+	</p>
+	<a href="#inicio" >ir al inicio</a>
+	<h2 id="contenido_2">Contenido 2</h2>
+	<p>
+	   fasdfkasdfsdakhflkhf'asfkhsf
+	   sdfsldfh;sdlfhdha;dslhf;adsf
+	   fsdalfhasdfljhsdlfhsdlfhasdfkl
+	   sgdhfghgfhdfghghdhthbwerbehqetve
+	   
+	</p>
+	<a href="#inicio" >ir al inicio</a>
+ 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		
